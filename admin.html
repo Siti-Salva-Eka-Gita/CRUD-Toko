@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRUD Toko</title>
+</head>
+<body>
+  <h1>Data Toko</h1>
+  
+<form id="FormToko">
+  <input id="kode_produk" placeholder="Kode Produk" required>
+  <input id="nama_produk" placeholder="Nama Produk" required>
+  <input id="harga" placeholder="Harga" required>
+  <input id="stok" placeholder="stok" required>
+
+  <button type="submit" id="btnSimpan">Simpan</button>
+  <button type="button" id="btnBatal">Batal</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kode Produk</th><th>Nama Produk</th>
+      <th>Harga</th><th>Stok</th>
+    </tr>
+  </thead>
+  <tbody id="datatoko"></tbody>
+</table>
+<p id="pesan" role="status"></p>
+
+  <script src="a.js"></script>
+</body>
+</html>

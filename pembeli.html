@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRUD Toko</title>
+</head>
+<body>
+<h1>Beli apa?</h1>
+
+<form id="FormBeli">
+  <input id="nama_beli" placeholder="Nama Produk" required>
+  <input id="jumlah_beli" type="number" placeholder="Jumlah" min="1" required>
+  <button type="submit">Beli</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kode Produk</th>
+      <th>Nama Produk</th>
+      <th>Harga</th>
+      <th>Stok</th>
+    </tr>
+  </thead>
+  <tbody id="dataPembeli"></tbody>
+</table>
+
+<p id="Beli"></p>
+
+  <script src="buyer.js"></script>
+</body>
+</html>
